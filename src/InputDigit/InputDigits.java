@@ -11,7 +11,7 @@ public class InputDigits {
         if (digit == 1) {
             isPrimeNumber = false;
         } else if (digit == 2 | digit == 3) {
-            isPrimeNumber = true;
+            return isPrimeNumber;
         } else {
             for (int i = 2; i <= digit / 2; i++) {
                 if (digit % i == 0) {
